@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/" method="GET">
+            <div>
+                <label for="nombreusuario">Nombre de Usuario</label>
+                <input type="text" name="nombreusuario" id="nombreusuario" required>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Cual es su edad?</label>
+                <input type="number" name="edad" id="edad" min="0">
+            </div>
+            <br>
+            <div>
+                <label for="comentario">Comentario:</label>
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    
+    </body>
+</html>
