@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> "Ejercicio 02/2 - Tablas en HTML"</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Tabla en HTML</h2>
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Fecha de Publicacion</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>El Poder Del Pensamiento Positivo</td>
+                <td>Remez Sasson </td>
+                <td>19 Diciembre 2019</td>
+                <td><a href="https://www.amazon.com/-/es/MENTES-LIBRES/dp/1677671939/ref=sr_1_2?crid=1WK29TGT34C6Y&keywords=el+poder+del+pensamiento+positivo&qid=1664546014&qu=eyJxc2MiOiIyLjU2IiwicXNhIjoiMS44NSIsInFzcCI6IjEuOTEifQ%3D%3D&sprefix=el+poder+del+pen%2Caps%2C284&sr=8-2">Libro El Poder Del Pensamiento Positivo</a></td>
+            </tr>
+            <tr>
+                <td>Padre Rico, Padre Pobre</td>
+                <td>Robert T. Kiyosaki</td>
+                <td>31 Octubre 2017</td>
+                <td><a href="https://www.amazon.com/-/es/Robert-T-Kiyosaki/dp/1945540826/ref=sr_1_1?crid=1F7DKS2CHD5MS&keywords=padre+rico+padre+pobre&qid=1664546183&qu=eyJxc2MiOiIyLjc4IiwicXNhIjoiMi4wNyIsInFzcCI6IjIuMDYifQ%3D%3D&sprefix=padr%2Caps%2C281&sr=8-1">Libro Padre Rico, Padre Pobre</a></td>
+            </tr>
+            <tr>
+                <td>HTML, CSS, and JavaScript All in One</td>
+                <td>Julie Meloni</td>
+                <td>10 diciembre 2018</td>
+                <td><a href="https://www.amazon.com/-/es/Julie-Meloni/dp/0672338084/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HA15GN6LJCLY&keywords=html5%2C+css3%2C+and+javascript+all+in+one&qid=1664546480&qu=eyJxc2MiOiIxLjA0IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=html5%2C+css3%2C+and+javascript+all+in+one%2Caps%2C212&sr=8-1">HTML, CSS, and JavaScript All in One</a></td>
+            </tr>
+        </table>
+    
+    </body>
+</html>
