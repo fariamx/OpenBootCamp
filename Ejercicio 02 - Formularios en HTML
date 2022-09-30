@@ -19,7 +19,7 @@
             </div>
             <br>
             <div>
-                <label for="comentario">Comentario:</label>
+                <label for="comentario">"frase-favorita"</label>
                 <br>
                 <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
             </div>
