@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Imagen Audio y Video</title>
+</head>
+<body>
+    <section>
+    <h1>"Aprendiendo a utilizar imágenes"</h1>
+    <img src="file:///D:/curso%20html/tareas/Curso%20Tarea1/Tareas%20OpenBootCamp/Tarea%20Audio%20Video/gamer.webp" alt="videojuego favorito" width="300" height="200" > 
+    </section>
+    <br>
+    <section>
+    <h1>"Aprendiendo a utilizar los vídeos"</h1>
+    <video width="300" height="300" controls autoplay muted loop>
+        <source src="file:///D:/curso%20html/tareas/Curso%20Tarea1/Tareas%20OpenBootCamp/Tarea%20Audio%20Video/toyota-hilux-4x4-offroad-transportando-troncos-para-el-aserradero-cruce-de-rio-ytshorts.savetube.me.mp4" type="video/mp4">
+    </video>   
+    </section>
+    <br>
+    <section>
+    <h1>"Aprendiendo a utilizar los audios"</h1>
+    <audio controls autoplay loop>
+        <source src="file:///D:/curso%20html/tareas/Curso%20Tarea1/Tareas%20OpenBootCamp/Tarea%20Audio%20Video/juan-gabriel-ya-no-vivo-por-vivir-ft-natalia-lafourcade.mp3" type="audio/mp3">
+    </audio>
+    </section>
+</body>
+</html>
